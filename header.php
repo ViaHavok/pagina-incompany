@@ -34,11 +34,10 @@ if (isset($_POST['envia_cotacao'])){
 
 <!DOCTYPE html>
   <html>
-
 <head>
     <title>Via Academy - Qualificação para Transformar Pessoas e Empresas</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Oswald:400,700" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/estilo.css?ver=1203201803" media="screen,projection"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -47,50 +46,21 @@ if (isset($_POST['envia_cotacao'])){
 	<script type="text/javascript" src="js/jquery.mask.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
 </head>
+<body data-spy="scroll" data-target="#scroll-spy">
 
-<body>
-	<div class="parallax-container parallaxHome">
-		<div class="header_full">
-			<div class="row header">
-				<div class="row menu">
-						<div class="container">
-							<div class="col s12 m12 l4">
-								<a href="https://viaacademy.com.br/" target="_blank" class="logo" title="Via Academy - Locação de Salas em São Paulo">Via Academy - Locação de Salas em São Paulo</a>
-							</div>
-
-							<div class="col s12 m12 l8 menu">
-								<ul>
-	    							<li><a target="_blank" href="https://viaacademy.com.br/sobre" title="Sobre">SOBRE</a></li>
-						        	<li><a target="_blank" href="https://viaacademy.com.br/clientes-e-parceiros" title="Clientes e Parceiros">CLIENTES E PARCEIROS</a></li>
-						        	<li><a href="#contato" title="Contato" class="waves-effect btn btn_contato">CONTATO</a></li>
-							    </ul>
-							</div>	
-						</div>
-				</div>
-
-				<!-- MENU MOBILE -->
-				<ul id="slide-out" class="side-nav">
-					<li class="no-padding">
-						<ul class="collapsible collapsible-accordion">
-							<li><a target="_blank" href="https://viaacademy.com.br/sobre" title="Sobre">SOBRE</a></li>
-							<li><a target="_blank" href="https://viaacademy.com.br/clientes-e-parceiros" title="Clientes e Parceiros">CLIENTES E PARCEIROS</a></li>
-							<li><a href="#contato" title="Contato">CONTATO</a></li>
-						</ul>
-					</li>
-				</ul>
-				<a href="#" data-activates="slide-out" class="button-collapse display-none"><i class="material-icons">menu</i></a>
-
-			</div>
-		</div>
-		
+<div class="primary-navigation">
+	<div class="container">
 		<div class="row">
-			<div class="container banner">
-				<div class="col s12">
-					<h2>Qualificação para Transformar Pessoas e Empresas</h2>
-				</div>
-			</div>
+			<p class="col s12 m7 l7">
+				<span>Melhor e mais moderno centro de treinamentos do país</span>  <span>(11) <strong>99352-6551</strong> / (11) <strong>3385-1400</strong></span>
+			</p>
+			<ul class="col s12 m5 l5 right-align">
+				<li class="menu-aluguel"><a href="https://locacao.viaacademy.com.br/" target="_blank">ALUGUEL DE SALAS</a></li>
+				<li><a href="https://viaacademy.com.br/sobre" target="_blank">Sobre</a></li>
+				<li><a href="index.php#section-clientes-e-parceiros">Clientes e Parceiros</a></li>
+				<li><a href="index.php#section-contato">Contato</a></li>
+			</ul>
 		</div>
-        <div class="parallax"><img src="images/background.jpg"></div>
+	</div>
 </div>
-
-
+<br clear="all">
